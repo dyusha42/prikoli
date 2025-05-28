@@ -1,0 +1,13 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/eduardnazarenko/Desktop/raper/laba7777/output/main'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _multiply, symObjAddr: 0x0, symBinAddr: 0x1000009E0, symSize: 0x120 }
+  - { offset: 0x4D, size: 0x8, addend: 0x0, symName: _A, symBinAddr: 0x100002000, symSize: 0x0 }
+  - { offset: 0x73, size: 0x8, addend: 0x0, symName: _B, symBinAddr: 0x100002008, symSize: 0x0 }
+  - { offset: 0x88, size: 0x8, addend: 0x0, symName: _C, symBinAddr: 0x100002010, symSize: 0x0 }
+  - { offset: 0x9D, size: 0x8, addend: 0x0, symName: _N, symBinAddr: 0x100002018, symSize: 0x0 }
+  - { offset: 0xB2, size: 0x8, addend: 0x0, symName: _num_threads, symBinAddr: 0x10000201C, symSize: 0x0 }
+  - { offset: 0xBC, size: 0x8, addend: 0x0, symName: _multiply, symObjAddr: 0x0, symBinAddr: 0x1000009E0, symSize: 0x120 }
+  - { offset: 0x162, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x120, symBinAddr: 0x100000B00, symSize: 0x410 }
+...
