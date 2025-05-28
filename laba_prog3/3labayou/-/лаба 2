@@ -1,0 +1,49 @@
+#include <stdio.h>
+
+int main()
+{
+/*
+        int a, s, n, k;
+        printf("Введите ваше число: \n");
+        scanf("%d", &a);
+
+        for (n=a, s=0; n!=0; n=n/10)
+              { k=n%10; if (k>s) s=k;}
+        printf("Наибольшая цифра в вашем числе: %d\n", s);
+
+
+        int n, a, s, k;
+        printf("Введите ваше число: \n");
+        scanf("%d", &a);
+        for (n=a, s=0; n!=0; n=n/10)
+              { k=n%10; s=s*10+k;}
+        printf("Ваше перевернутое число: %d\n", s);
+
+
+
+        int k, m, n;
+        printf("Введите ваше число: \n");
+        scanf("%d", &n);
+        for (k=0, m=1; m <= n; k++, m = m * 2);
+        printf("Максимальная степень двойки, не превышающая %d: %d\n", n, k - 1);
+        return 0;
+
+
+    int n, a, s, k;
+    printf("Введите свое число: ");
+    scanf("%d", &a);
+    for (n=a, s=0; n!=0; n=n/10)
+      { k=n%10; s=s+k;} 
+    printf("Сумма цифр вашего числа: %d", s);
+
+*/
+
+ int s, i, n;
+    printf("Степень двойки: ");
+    scanf("%d", &n);
+
+    for (s=1, i=1; i<=n; i++) s = s * 2;
+    printf("Ответ: %d", s);
+    
+
+}

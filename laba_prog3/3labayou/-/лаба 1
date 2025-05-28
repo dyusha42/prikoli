@@ -1,0 +1,48 @@
+/*
+#include <stdio.h>
+
+int main(void)
+{
+
+        int x;
+        printf("Введите ваш год: ");
+        scanf("%d", &x);
+
+        if (x % 400 == 0) {
+                printf("YES\n");
+        } else if (x % 100 == 0) {
+                printf("NO\n");
+        } else if (x % 4 == 0) {
+                printf("YES\n");
+        } else {
+                printf("NO\n");
+        }
+
+
+
+}
+*/
+
+#include <stdio.h>
+
+int main() {
+
+        float x;
+        char c;
+        printf("Input temperature: ");
+        scanf("%f%c", &x, &c);
+
+        switch (c) {
+                case 99:
+                case 67:
+                        printf("Output temperature: %.1ff\n", (9.0 / 5.0) * x + 32);
+                        break;
+                case 70:
+                case 102:
+                        printf("Output temperature: %.1fc\n", (5.0 / 9.0) * (x - 32));
+                        break;
+                default:
+                        printf("Output error\n");
+                }
+
+}
