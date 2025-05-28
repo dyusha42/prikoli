@@ -1,0 +1,8 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/eduardnazarenko/Desktop/raper/laba4prog/output/proga'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _capitalizeWords, symObjAddr: 0x0, symBinAddr: 0x100000C20, symSize: 0xA0 }
+  - { offset: 0x41, size: 0x8, addend: 0x0, symName: _capitalizeWords, symObjAddr: 0x0, symBinAddr: 0x100000C20, symSize: 0xA0 }
+  - { offset: 0x8F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xA0, symBinAddr: 0x100000CC0, symSize: 0x1BB }
+...
